@@ -1,0 +1,9 @@
+# Proyeto IAS - Parte 2
+ 
+**Alumno:** [Axel Cardozo Ruben Nehemias]
+**Materia:** Taller de Lenguaje de Programación I
+**Año:** 2026
+
+#Descripción 
+Sitio web del Instituto de Asistencia Social (IAS) de Formosa.
+Proyecto desarrolado aplicando HTML semántico, CSS, Flexbox y Grid.

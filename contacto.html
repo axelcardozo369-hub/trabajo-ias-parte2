@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!--titulo y subtitulo principal que en las otras paginas-->
+    <header>
+      <h1 id="titulo">Instituto de Asistencia Social-IAS</h1>
+      <h2 id="subtitulo">Organismo de Control de Juegos de Azar-Formosa</h2>
+    </header>
+    <!--barra de navegacion igual a las otras paginas-->
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="funciones.html">Funciones</a>
+      <a href="sobre-ias.html">Sobre IAS</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <main>
+      <!--contenido principal con informacion de contacto, formulario de consultas, horarios de atencion y mapa de ubicacion-->
+      <h2>Contacto</h2>
+      <section>
+        <h3>Información de la Institución</h3>
+        <address>
+          <ul>
+            <!--informacion de contacto del IAS-Formosa-->
+            <!--direccion, telefono y email del IAS-Formosa-->
+            <li>
+              <strong>Sede central:</strong> Calle Belgrano
+              550,Formosa,Argentina.
+            </li>
+
+            <li>
+              <strong>Teléfono:</strong>
+              <a href="tel:+543704712470">3704712470</a>
+            </li>
+            <li>
+              <strong>Email:</strong>
+              <a href="mailto:consultas@ias.gob.ar">consultas@ias.gob.ar</a>
+            </li>
+          </ul>
+        </address>
+      </section>
+      <section>
+        <!-- formulario de consultas -->
+        <h3>Formulario de Consultas</h3>
+        <!--formulario con campos para nombre, correo, telefono, motivo de consulta y mensaje-->
+        <form id="formulario" action="#" method="post">
+          <div>
+            <label for="nombre">Nombre</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ej: Axel Cardozo"
+              required
+            />
+            <label for="correo">Correo Electronico</label>
+            <input
+              type="text"
+              id="correo"
+              name="correo"
+              placeholder="Ej: correo@gmail.com"
+            />
+            <label for="telefono">Telefono</label>
+            <input
+              type="text"
+              name="telefono"
+              id="telefono"
+              placeholder="Ej: 37045000"
+            />
+          </div>
+          <!--select con opciones para el motivo de la consulta-->
+          <div>
+            <label for="motivo">Motivo de consultas</label>
+            <select name="motivo" id="motivo" required>
+              <option value="">--Seleccione unas de las opciones--</option>
+              <option value="legal">Consulta Legal</option>
+              <option value="social">Acción Social</option>
+              <option value="juegos">Juegos de Azar</option>
+            </select>
+          </div>
+          <div class="formulario">
+            <label for="mensaje">Mensaje:</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              placeholder="Escriba su consulta aqui por favor"
+              required
+            ></textarea>
+          </div>
+          <button class="enviar">Enviar Consulta</button>
+        </form>
+      </section>
+      <details>
+        <summary>Ver horarios de atención extendidos</summary>
+        <p>
+          Durante en épocas de sorteos especiales, se atiende de 08:00 a 21:00
+          hs.
+        </p>
+      </details>
+      <!--seccion con mapa de ubicacion del IAS-Formosa-->
+      <div class="mapa">
+        <h3>Nuestra Ubicación</h3>
+        <a href="https://maps.app.goo.gl/eKcwvCmRN6VfkT2K6">
+          Ubicación IAS-Formosa</a
+        >
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy;2026-Instituto de Asistencia Social. Todos los derechos
+        reservados.
+      </p>
+    </footer>
+  </body>
+</html>
