@@ -62,6 +62,11 @@ main{
     padding: 20px;
     line-height: normal;
 }
+main ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
 /* Estilos para los títulos secundarios del sitio web */
 h3{
     text-align: center;
