@@ -62,6 +62,7 @@ main{
     padding: 20px;
     line-height: normal;
 }
+/* Estilos para las listas dentro del contenido principal del sitio web */
 main ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -136,12 +137,26 @@ th, td{
 }
 /* Estilos para el formulario de contacto del sitio web */
 #formulario{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
     background-color: #13f579b6;
     padding: 25px;
     border-radius: 5px;
     width: 90%;
     margin: 20px auto;
 
+}
+/* Estilos para las etiquetas de los campos de entrada del formulario de contacto del sitio web */
+#formulario label{
+    width: 100%;
+}
+/* Estilos para los campos de entrada del formulario de contacto del sitio web */
+#formulario input, #formulario textarea, #formulario select{
+    width: 100%;
+   /* padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;*/
 }
 /* Estilos para los campos de entrada del formulario de contacto del sitio web */
 input[type="text"], input[type="email"], input[type="tel"] , textarea{

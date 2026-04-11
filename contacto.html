@@ -53,14 +53,14 @@
         <h3>Formulario de Consultas</h3>
         <!--formulario con campos para nombre, correo, telefono, motivo de consulta y mensaje-->
         <form id="formulario" action="#" method="post">
-          <div>
+          
             <label for="nombre">Nombre</label>
             <input
               type="text"
               id="nombre"
               name="nombre"
               placeholder="Ej: Axel Cardozo"
-              required
+               required
             />
             <label for="correo">Correo Electronico</label>
             <input
@@ -76,9 +76,9 @@
               id="telefono"
               placeholder="Ej: 37045000"
             />
-          </div>
+          
           <!--select con opciones para el motivo de la consulta-->
-          <div>
+        
             <label for="motivo">Motivo de consultas</label>
             <select name="motivo" id="motivo" required>
               <option value="">--Seleccione unas de las opciones--</option>
@@ -86,8 +86,7 @@
               <option value="social">Acción Social</option>
               <option value="juegos">Juegos de Azar</option>
             </select>
-          </div>
-          <div class="formulario">
+      
             <label for="mensaje">Mensaje:</label>
             <textarea
               name="mensaje"
@@ -95,7 +94,6 @@
               placeholder="Escriba su consulta aqui por favor"
               required
             ></textarea>
-          </div>
           <button class="enviar">Enviar Consulta</button>
         </form>
       </section>
