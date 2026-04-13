@@ -1,230 +1,237 @@
 /* Estilos generales para el sitio web del Instituto de Asistencia Social (IAS) */
-body{
-    background-color: white;
+
+body {
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 20px;
   color: black;
 }
-.container{
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
 
 /* Estilos para el título principal del sitio web */
-#titulo{
-    text-align: center;
-    color: yellow;
-    font-size: 30px;
-    font-weight: bold;
-    border:5px solid green;
-    background-color: green;
-   
+#titulo {
+  text-align: center;
+  color: yellow;
+  font-size: 30px;
+  font-weight: bold;
+  border: 5px solid green;
+  background-color: green;
 }
 
 /* poner en el centro la barra de navegación */
-nav ul{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  
 }
 
 /* Estilos para el subtítulo del sitio web */
-#subtitulo{
-    text-align: center;
-    color: yellow;
-    font-size: 30px;
-     font-weight: bold;
-     border: 5px solid green;
-     background-color: green;
+#subtitulo {
+  text-align: center;
+  color: yellow;
+  font-size: 30px;
+  font-weight: bold;
+  border: 5px solid green;
+  background-color: green;
+}
+nav{
+    padding: 10px;
+    margin:0;
 }
 /* Estilos para los enlaces de navegación del sitio web */
-nav a{
-   text-decoration: none;
-   color: white;
-   font-weight: bold;
-   background-color: green;
-   text-align:center;
-   padding: 15px;
-    
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: green;
+  text-align: center;
+  padding: 15px;
+  
 }
 /* Estilos para el contenido principal del sitio web */
-main{
-    width: 600px;
-    margin:  2px auto;
-    min-height: 78vh;
-    box-shadow: 0 0 10px rgb(19, 136, 67);
-    line-height: 1.5;
-    padding: 20px;
-    line-height: normal;
+main {
+  width: 600px;
+  /*margin-top: 20px;*/
+  margin: 2px auto;
+  min-height: 78vh;
+  box-shadow: 0 0 10px rgb(19, 136, 67);
+  line-height: 1.5;
+  padding: 20px;
+  line-height: normal;
 }
 /* Estilos para las listas dentro del contenido principal del sitio web */
-main ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+main ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 /* Estilos para los títulos secundarios del sitio web */
-h3{
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    border: 10px solid green;
-    background-color:green;
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  border: 10px solid green;
+  background-color: green;
 }
 /* Estilos para las secciones de texto e imágenes del sitio web */
-.imagen-texto{
-    text-align: center;
-
+.imagen-texto {
+  text-align: center;
 }
 /* Estilos para las imágenes dentro de las secciones de texto e imágenes del sitio web */
 .imagen-texto img {
-    max-width: 360px 0px;
-    height: 200px;
-    text-align: center
-
+  max-width: 360px 0px;
+  height: 200px;
+  text-align: center;
 }
 /* Estilos para las figuras del sitio web */
-figure{
-    text-align: center;
-    margin: 50px auto;
-    width: 500px;
+figure {
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
 }
 /* Estilos para las imágenes dentro de las figuras del sitio web */
 
 /* Estilos para el formulario de contacto del sitio web */
 .formulario {
-    text-align: start;
-    margin: 0px
+  text-align: start;
+  margin: 0px;
 }
 /* Estilos para los títulos de las secciones del sitio web */
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
 /* Estilos para el contenido final del sitio web */
-#final{
-    text-align: center;
+#final {
+  text-align: center;
 }
 /* Estilos para el pie de página del sitio web */
-footer{
-    /* aplique display flex para centrar el contenido del pie de página */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: green;
-    color: yellow;
-    padding: 10px;
-    /*text-align: center;
+footer {
+  /* aplique display flex para centrar el contenido del pie de página */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: green;
+  color: yellow;
+  padding: 10px;
+  /*text-align: center;
     background-color: green;
     color: yellow;
     padding: 10px;*/
-
 }
 /* Estilos para la imagen del sitio web */
 .imagen-ias {
-    text-align: center;
-    margin: 40px auto;
-    width: 800px;;
+  text-align: center;
+  margin: 40px auto;
+  width: 800px;
 }
 /* Estilos para las tablas del sitio web */
-table{
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 /* Estilos para las celdas de las tablas del sitio web */
-th, td{
-    border: 1px solid black;
-    padding: 10px;
-    text-align: left;
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
 }
 /* Estilos para el formulario de contacto del sitio web */
-#formulario{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    background-color: #13f579b6;
-    padding: 25px;
-    border-radius: 5px;
-    width: 90%;
-    margin: 20px auto;
-
+#formulario {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  background-color: #13f579b6;
+  padding: 25px;
+  border-radius: 5px;
+  width: 90%;
+  margin: 20px auto;
 }
 /* Estilos para las etiquetas de los campos de entrada del formulario de contacto del sitio web */
-#formulario label{
-    width: 100%;
+#formulario label {
+  width: 100%;
 }
 /* Estilos para los campos de entrada del formulario de contacto del sitio web */
-#formulario input, #formulario textarea, #formulario select{
-    width: 100%;
-   /* padding: 10px;
+#formulario input,
+#formulario textarea,
+#formulario select {
+  width: 100%;
+  /* padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;*/
 }
 /* Estilos para los campos de entrada del formulario de contacto del sitio web */
-input[type="text"], input[type="email"], input[type="tel"] , textarea{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
 }
 /* Estilos para el botón de envío del formulario de contacto del sitio web */
-nav ul li{
-    list-style-type: none;
-    margin-bottom: 10px;
-   
+nav ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
 }
 /* Estilos para los enlaces de la sección de contacto del sitio web */
-.mapa{
-    text-align: center;
-    margin: 20px auto;
+.mapa {
+  text-align: center;
+  margin: 20px auto;
 }
-.mapa a{
-    text-decoration: none;
-    padding: 15px;
-    font-weight: bold;
+.mapa a {
+  text-decoration: none;
+  padding: 15px;
+  font-weight: bold;
 }
 /* Estilos para el botón de envío del formulario de contacto del sitio web */
-.enviar{
-    text-decoration: none;
-    padding: 15px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    background-color: green;
-    text-align: center; 
+.enviar {
+  text-decoration: none;
+  padding: 15px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: green;
+  text-align: center;
 }
 /* Estilos para los elementos de la barra de navegación del sitio web */
-nav ul li{
-    /* display: inline-block; */
-    /* list-style-type: none; */
-    /* margin-right: 10px; */
-    /* background-color: green; */
+nav ul li {
+  /* display: inline-block; */
+  /* list-style-type: none; */
+  /* margin-right: 10px; */
+  /* background-color: green; */
 }
 /* Estilos para los enlaces de la barra de navegación del sitio web */
-a:hover{
-    background-color: rgb(176, 236, 9);
+a:hover {
+  background-color: rgb(176, 236, 9);
 }
 /* Estilos para el pie de página del sitio web */
-footer p{
-font-size: 15px;
-font-weight: bold;
+footer p {
+  font-size: 15px;
+  font-weight: bold;
 }
 /* Estilos para el formulario de contacto del sitio web */
-details{
-    background-color: #0eff36b6;
-    padding: 15px;
-    border-radius: 5px;
-    width: 90%;
-    margin: 20px auto;
+details {
+  background-color: #0eff36b6;
+  padding: 15px;
+  border-radius: 5px;
+  width: 90%;
+  margin: 20px auto;
 }
 
 /* Estilo para los campos de entrada del formulario de contacto del sitio web cuando están activos */
 input:focus {
-/* Cambiar borde cuando el campo está activo */
- background-color: rgba(236, 240, 8, 0.733);
+  /* Cambiar borde cuando el campo está activo */
+  background-color: rgba(236, 240, 8, 0.733);
 }
