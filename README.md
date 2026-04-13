@@ -6,4 +6,4 @@
 
 #Descripción 
 Sitio web del Instituto de Asistencia Social (IAS) de Formosa.
-Proyecto desarrolado aplicando HTML semántico, CSS, Flexbox y Grid.
+Proyecto desarrollado aplicando HTML semántico, CSS, Flexbox y Grid.
